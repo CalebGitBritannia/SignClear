@@ -1,0 +1,11 @@
+name: SignClearer
+version: ${project.version}
+main: signclearer.signclearer.SignClearer
+api-version: 1.16
+authors: [ CalebBritannia ]
+description: An insanely lightweight plugin that removes signs!
+
+commands:
+  signclear:
+    aliases: ["sc"]
+    usage: "/signclear (radius) (string to search for)"
