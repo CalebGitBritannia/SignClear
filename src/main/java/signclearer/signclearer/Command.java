@@ -1,6 +1,5 @@
 package signclearer.signclearer;
 
-import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.Sign;
@@ -27,7 +26,9 @@ public class Command implements CommandExecutor {
         try {
             size = Integer.parseInt(args[0]);
         } catch (Exception e) {
-            sender.sendMessage(prefix + "Please enter a valid number for the range, " + args[0] + " is not recognised as a valid number");
+            sender.sendMessage(prefix + "Please Enter A Valid Number For The Range " + args[0] + " is not recognised " +
+                    "as a valid " +
+                    "number");
             return true;
         }
         
